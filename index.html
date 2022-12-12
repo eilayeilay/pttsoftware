@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PTT Software Co.,Ltd</title>
+	<link href="https://icon-library.com/images/icon-logo-png/icon-logo-png-11.jpg" rel="icon" type="image/jpg" sizes="32x32" />
+
+	<!-- bootstrap css1 js1 -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+
+	<!-- fontawesome css1 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- custom css -->
+	<style type="text/css">
+		.banners{
+			height: 100vh;
+
+			background: linear-gradient(
+				20deg,
+				steelblue 30%,
+				skyblue 10% 100%
+			);
+
+			background-size: 5%;
+
+			transition: all 2s;
+		}
+
+		.banners:hover{
+			background-size: 5.5%;
+			background-position: center;
+		}
+
+		.cardhovers: hover{
+			box-shadow: -7px 5px 5px rgba(0, 0, 0, 0.3);
+		}
+
+		.maps{
+			width: 100%;
+			/*height: 500px;*/
+			height: 40vh;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- Start Header Section -->
+
+	<header>
+
+		<!-- Start Navbar -->
+			<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
+				
+				<a href="index.html" class="navbar-brand mx-3">
+					<img src="https://icon-library.com/images/icon-logo-png/icon-logo-png-11.jpg" width="50px" alt="sitelogo" />
+					<h1 class="text-capitalize display-4"><span class="ms-2">PTT Software Co.,Ltd</span></h1>
+				</a>
+
+
+				<button type="button" class="navbar-toggler"><i class="navbar-toggler-icon"></i></button>
+
+
+				<div class="navbar-collapse collapse justify-content-between">
+					<ul class="navbar-nav">
+						<li class="nav-item"><a href="home.html" class="nav-link text-uppercase fw-bold">Home</a></li>
+						<li class="nav-item"><a href="#client" class="nav-link text-uppercase fw-bold">Client</a></li>
+						<li class="nav-item"><a href="#about" class="nav-link text-uppercase fw-bold">About</a></li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle text-uppercase fw-bold" data-bs-toggle="dropdown">Software</a>
+							<ul class="dropdown-menu">
+								<li><a href="#" class="dropdown-item">Android App</a></li>
+								<li><a href="#" class="dropdown-item">IOS App</a></li>
+								<li><a href="#" class="dropdown-item">Linux App</a></li>
+								<li><a href="#" class="dropdown-item">Window App</a></li>
+							</ul>
+						</li>
+						<li class="nav-item"><a href="#pricing" class="nav-link text-uppercase fw-bold">Pricing</a></li>
+						<li class="nav-item"><a href="#contact" class="nav-link text-uppercase fw-bold">Contact</a></li>
+					</ul>
+
+					<div>
+						<button type="button" class="btn btn-outline-light btn-sm rounded-0">Sign-up</button>
+					</div>
+
+				</div>
+
+			</nav>
+		<!-- End Navbar -->
+
+
+
+		<!-- Start Banner -->
+
+			<section>
+				<div class="container-fluid">
+					<div class="row justify-content-center align-items-center banners">
+						<div class="col-md-10 text-center">
+
+							<h1 class="text-capitalize display-2"><span class="fw-bold text-primary">PTT</span><span class="text-white">software development company :</span></h1>
+							<h2 class="text-light fst-italic fw-light">We help companies to digitalize their business</h2>
+							<p class="text-secondary">Properly set processes. Transparent cooperation. Predictable delivery.</p>
+							<a href="#" class="btn btn-warning btn-lg rounded-0" data-bs-toggle="modal" data-bs-target="#loginmodal">Get In Touch</a>
+
+						</div>
+					</div>
+				</div>
+			</section>
+
+		<!-- End Banner -->
+		
+
+	</header>
+	<!-- End Header Section -->
+
+		<!-- Start Client Section -->
+			<section id="clients" class="bg-light p-3">
+				<div class="container-fluid">
+
+					<!-- Start title -->
+						<div class="col-12 text-center">
+							<h2 class="text-warning display-4">Our clinets</h2>
+							<p class="text-muted lead">Projects We successfully developed. One look is worth a thousand words.</p>
+						</div>
+
+					<!-- End title -->
+
+					<div class="row text-center">
+
+						<div class="col-md-3 col-sm-6">
+
+							<div class="card bg-info cardhovers">
+								<div class="card-body">
+									<h5 class="card-title">Toyota</h5>
+									<h6 class="card-subtitle text-muted mb-2">Vehicles</h6>
+									<p>Lore mIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+									<a href="#" class="card-link">Website</a>
+									<a href="#" class="card-link">Contact</a>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-md-3 col-sm-6">
+
+							<div class="card bg-info cardhovers">
+								<div class="card-body">
+									<h5 class="card-title">Suzuki</h5>
+									<h6 class="card-subtitle text-muted mb-2">Vehicles</h6>
+									<p>Lore mIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+									<a href="#" class="card-link">Website</a>
+									<a href="#" class="card-link">Contact</a>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-md-3 col-sm-6">
+
+							<div class="card bg-info cardhovers">
+								<div class="card-body">
+									<h5 class="card-title">KIA</h5>
+									<h6 class="card-subtitle text-muted mb-2">Vehicles</h6>
+									<p>Lore mIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+									<a href="#" class="card-link">Website</a>
+									<a href="#" class="card-link">Contact</a>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-md-3 col-sm-6">
+
+							<div class="card bg-info cardhovers">
+								<div class="card-body">
+									<h5 class="card-title">Toyota</h5>
+									<h6 class="card-subtitle text-muted mb-2">Vehicles</h6>
+									<p>Lore mIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+									<a href="#" class="card-link">Website</a>
+									<a href="#" class="card-link">Contact</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+
+
+					<div class="row text-center">
+
+						<div class="col-md-3 col-sm-6">
+
+							<div class="card bg-warning cardhovers">
+								<div class="card-body">
+									<h5 class="card-title">Samsung</h5>
+									<h6 class="card-subtitle text-muted mb-2">Communication Technology</h6>
+									<p>Lore mIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+									<a href="#" class="card-link">Website</a>
+									<a href="#" class="card-link">Contact</a>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-md-3 col-sm-6">
+
+							<div class="card bg-warning cardhovers">
+								<div class="card-body">
+									<h5 class="card-title">Mi</h5>
+									<h6 class="card-subtitle text-muted mb-2">Communication Techonlogy</h6>
+									<p>Lore mIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+									<a href="#" class="card-link">Website</a>
+									<a href="#" class="card-link">Contact</a>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-md-3 col-sm-6">
+
+							<div class="card bg-warning cardhovers">
+								<div class="card-body">
+									<h5 class="card-title">Sony</h5>
+									<h6 class="card-subtitle text-muted mb-2">Communication Technology</h6>
+									<p>Lore mIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+									<a href="#" class="card-link">Website</a>
+									<a href="#" class="card-link">Contact</a>
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-md-3 col-sm-6">
+
+							<div class="card bg-warning cardhovers">
+								<div class="card-body">
+									<h5 class="card-title">Oppo</h5>
+									<h6 class="card-subtitle text-muted mb-2">Communication Technology</h6>
+									<p>Lore mIpsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
+									<a href="#" class="card-link">Website</a>
+									<a href="#" class="card-link">Contact</a>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				
+			</section>
+		<!-- End Client Section -->
+
+
+		<!-- Start Software Section -->
+			<section id="software" class="">
+				<div class="container">
+					<!-- Start title -->
+						<div class="col-12 text-center">
+							<h2 class="text-warning display-4">Our clinets</h2>
+							<p class="text-muted lead">Projects We successfully developed. One look is worth a thousand words.</p>
+						</div>
+					<!-- End title -->
+
+					<div class="row">
+
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<img src="https://st1.bgr.in/wp-content/uploads/2018/10/android-green-lego-poster-googleblog.jpg" class="img-thumbnail" alt="android">
+							<h3 class="text-warning my-3">Android Application</h3>
+							<p class="text-muted">Lorem Ipsum is simply  dummy text of the printing and typesetting industry.</p>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<img src="https://mytechmyanmar.com/wp-content/uploads/2020/04/appstore.jpg" class="img-thumbnail" alt="android">
+							<h3 class="text-warning my-3">IOS Application</h3>
+							<p class="text-muted">Lorem Ipsum is simply  dummy text of the printing and typesetting industry.</p>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<img src="https://i.ytimg.com/vi/8WbyB_2HthM/maxresdefault.jpg" class="img-thumbnail" alt="android">
+							<h3 class="text-warning my-3">Linux Application</h3>
+							<p class="text-muted">Lorem Ipsum is simply  dummy text of the printing and typesetting industry.</p>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<img src="https://i.pcmag.com/imagery/lineups/06xskoAKsVIlA7WdtvUGQmT-1.1577756249.fit_lim.size_1182x667.jpg" class="img-thumbnail" alt="android">
+							<h3 class="text-warning my-3">Windows Application</h3>
+							<p class="text-muted">Lorem Ipsum is simply  dummy text of the printing and typesetting industry.</p>
+						</div>
+					</div>
+
+				</div>
+			</section>
+		<!-- End Software Section -->
+
+
+		<!-- Start Team Section -->
+
+		<section id="" class="container-fluid">
+
+			<!-- Start title -->
+			<div class="col-12 text-center">
+				<h2 >Team</h2>
+			</div>
+			<!-- End title -->
+
+			<div class="row">
+
+				<div class="col-lg-4 col-sm-10 mx-auto mb-4">
+
+					<div class="card">
+
+						<img src="https://www.boemagazine.com/wp-content/uploads/2019/11/blur-businesswoman-caucasian-941555.jpg">
+						<div class="card-header">
+							<p>Hello</p>
+						</div>
+
+						<div class="card-body">
+							<h3 class="card-title">Ms.Khin Myat Noe</h3>
+							<p class="card-subtitle">Operation Manager</p>
+						</div>
+
+						<div class="card-footer">
+
+							<div class="float-end">
+								<a href="#"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+								<a href="#"><i class="fab fa-twitter text-info fa-2x"></i></a>
+								<a href="#"><i class="fab fa-youtube text-danger fa-2x"></i></a>
+							</div>
+								
+						</div>
+
+					</div>
+
+				</div>
+
+				<div class="col-lg-4 col-sm-10 mx-auto mb-4">
+
+					<div class="card">
+
+						<img src="https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/2021/01/what-is-the-difference-web-developer-web-designer.jpg" alt="user2">
+						<div class="card-header">
+							<p>Hello</p>
+						</div>
+
+						<div class="card-body">
+							<h3 class="card-title">Mr.Htet Paing</h3>
+							<p class="card-subtitle">Project Manager</p>
+						</div>
+
+						<div class="card-footer">
+
+							<div class="float-end">
+								<a href="#"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+								<a href="#"><i class="fab fa-twitter text-info fa-2x"></i></a>
+								<a href="#"><i class="fab fa-youtube text-danger fa-2x"></i></a>
+							</div>
+								
+						</div>
+
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-sm-10 mx-auto mb-4">
+
+					<div class="card">
+
+						<img src="https://dpbnri2zg3lc2.cloudfront.net/en/wp-content/uploads/2021/01/Sam-CF.jpg" alt="user3">
+						<div class="card-header">
+							<p>Hello</p>
+						</div>
+
+						<div class="card-body">
+							<h3 class="card-title">Mr.Pyae Phyo Paing</h3>
+							<p class="card-subtitle">Founder and CEO</p>
+						</div>
+
+						<div class="card-footer">
+
+							<div class="float-end">
+								<a href="#"><i class="fab fa-facebook text-primary fa-2x"></i></a>
+								<a href="#"><i class="fab fa-twitter text-info fa-2x"></i></a>
+								<a href="#"><i class="fab fa-youtube text-danger fa-2x"></i></a>
+							</div>
+								
+						</div>
+
+					</div>
+
+				</div>
+
+		<!-- End Team Section -->
+
+		<!-- Start Public Interest Section -->
+		<section id="about">
+			<div class="container-fluid">
+
+				<!-- Start title -->
+				<div class="col-12 text-center">
+					<h2 class="text-warning display-4">Public Interest</h2>
+					<p class="text-muted lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+				<!-- End title -->
+
+
+				<div class="row">
+
+					<div class="col-lg-6 col-sm-10 mx-auto">
+
+						<h3>Ebook</h3>
+						<div class="progress mb-3">
+							<div class="progress-bar bg-primary progress-bar-striped" style="width:25%" aria-valuenow="25" aria-valuemin="0" ari-valuemax="100">25%</div>
+						</div>
+
+						<h3>Android Application</h3>
+						<div class="progress mb-3">
+							<div class="progress-bar bg-info progress-bar-striped" style="width:25%" aria-valuenow="25" aria-valuemin="0" ari-valuemax="100">25%</div>
+						</div>
+
+						<h3>IOS Application</h3>
+						<div class="progress mb-3">
+							<div class="progress-bar bg-success progress-bar-striped" style="width:15%" aria-valuenow="15" aria-valuemin="0" ari-valuemax="100">15%</div>
+						</div>
+
+						<h3>Linux Application</h3>
+						<div class="progress mb-3">
+							<div class="progress-bar bg-danger progress-bar-striped" style="width:5%" aria-valuenow="5" aria-valuemin="0" ari-valuemax="100">5%</div>
+						</div>
+
+						<h3>Windows Application</h3>
+						<div class="progress mb-3">
+							<div class="progress-bar bg-info progress-bar-striped" style="width:30%" aria-valuenow="30" aria-valuemin="0" ari-valuemax="100">30%</div>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+		<!-- End Public Interest Section -->
+
+
+		<!-- Start Pricing Section -->
+		<section class="bg-secondary p-4">
+			
+			<div class="container-fluid">
+
+				<!-- Start title -->
+				<div class="col-12 text-center">
+					<h2 class="text-warning display-4">Pricing</h2>
+					<p class="text-light lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+				</div>
+				<!-- End title -->
+
+				<div class="row">
+					
+					<div class="col-md-4 col-sm-10 mx-auto mb-3">
+
+						<div class="card text-center">
+							<div class="card-body">
+								<h5>BLOG SITE / FREE</h5>
+								<h6>$0/month</h6>
+								<hr/>
+
+								<ul class="list-group">
+									<li class="list-group-item">Single User</li>
+									<li class="list-group-item">5GB Storage</li>
+									<li class="list-group-item">Unlimited Public Projects</li>
+									<li class="list-group-item">Community Access</li>
+									<li class="list-group-item">Dedicate Phone Support</li>
+									<li class="list-group-item">Free Subdomain</li>
+									<li class="list-group-item">Monthly Status Report</li>
+								</ul>
+							</div>
+							<div class="card-footer">
+								<div class="d-grid">
+									<a href="#" class="btn btn-warning text-uppercase">checkout</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="col-md-4 col-sm-10 mx-auto mb-3">
+
+						<div class="card text-center">
+							<div class="card-body">
+								<h5>ECOMMERCE SITE / PLUS</h5>
+								<h6>$9/month</h6>
+								<hr/>
+
+								<ul class="list-group">
+									<li class="list-group-item">Single User</li>
+									<li class="list-group-item">5GB Storage</li>
+									<li class="list-group-item">Unlimited Public Projects</li>
+									<li class="list-group-item">Community Access</li>
+									<li class="list-group-item">Dedicate Phone Support</li>
+									<li class="list-group-item">Free Subdomain</li>
+									<li class="list-group-item">Monthly Status Report</li>
+								</ul>
+							</div>
+							<div class="card-footer">
+								<div class="d-grid">
+									<a href="#" class="btn btn-warning text-uppercase">checkout</a>
+								</div>
+							</div>
+						</div>		
+					</div>
+
+
+					<div class="col-md-4 col-sm-10 mx-auto mb-3">
+
+						<div class="card text-center">
+							<div class="card-body">
+								<h5>DYNAMIC SITE / PRO</h5>
+								<h6>$49/month</h6>
+								<hr/>
+
+								<ul class="list-group">
+									<li class="list-group-item">Single User</li>
+									<li class="list-group-item">5GB Storage</li>
+									<li class="list-group-item">Unlimited Public Projects</li>
+									<li class="list-group-item">Community Access</li>
+									<li class="list-group-item">Dedicate Phone Support</li>
+									<li class="list-group-item">Free Subdomain</li>
+									<li class="list-group-item">Monthly Status Report</li>
+								</ul>
+							</div>
+							<div class="card-footer">
+								<div class="d-grid">
+									<a href="#" class="btn btn-warning text-uppercase">checkout</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<!-- End Pricing Section -->
+
+		<!-- Start Contact Section -->
+		<section>
+			<div class="container-fluid">
+
+				<!-- Start title -->
+				<div class="col-12 text-center">
+					<h2 class="text-warning display-4">Contact</h2>
+				</div>
+				<!-- End title -->
+
+
+				<div class="row">
+					<div class="col-lg-6 col-md-8 col-sm-10 mx-auto">
+						<div class="card">
+							<div class="card-header">
+								<h5 class="card-title">Office Location</h5>
+							</div>
+							<div class="card-body">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118468.00282914814!2d96.06915461738245!3d21.891258389263047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30cb75ab46393931%3A0xd7a9c58f0f5cfaef!2sUniversity%20of%20Computer%20Studies%2C%20Mandalay%20(Ta-Ohn)!5e0!3m2!1sen!2smm!4v1670414129836!5m2!1sen!2smm" class="maps" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							</div>
+							<div class="card-footer">
+								<p>Phone : 0942204225</p>
+								<p>Email : info@ptt.com</p>
+								<p>Address: NO.123,Aung San St,Mandalay Myanmar</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-8 col-sm-10 mx-auto mb-3">
+
+						<div class="text-center text-secondary">
+							<h3>Got Questions ?</h3>
+							<p>Stay Connected</p>
+						</div>
+
+						<form action="" method="">
+							<div class="col-md-12 form-group mb-3">
+								<label for="name">Name</label>
+								<input type="text" name="name" class="form-control form-control-sm rounded-0" placeholder="Enter your name" />
+							</div>
+
+							<div class="col-md-12 form-group mb-3">
+								<label for="email">Email</label>
+								<input type="email" name="email" class="form-control form-control-sm rounded-0" placeholder="Enter your email" />
+							</div>
+
+							<div class="col-md-12 form-group mb-3">
+								<label for="name">Message</label>
+								<textarea name="message" id="message" class="form-control form-control-sm rounded-0" placeholder="Enter your message"></textarea>
+							</div>
+
+							<div class="d-grid">
+								<button type="submit" class="btn btn-warning rounded-0">Submit</button>
+							</div>
+
+						</form>
+						
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!-- End Contact Section -->
+
+		<!-- Start elfsight.com for viber -->
+			<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+
+			<div class="elfsight-app-4d61b0db-4a38-4588-8a6f-c6465f2215b7"></div>
+
+		<!-- End elfsight.com for viber -->
+
+
+	<!-- Start Footer Section -->
+
+	<footer class="bg-dark py-3">
+		<div class="container-fluid">
+			<div class="col-12 text-center">
+				<p class="text-white">&copy;Copyright <span id="autoyear"></span> - Made by PTT Co.Ltd</p>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer Section -->
+<!-- 
+	Modal size
+
+	(i) Standard size
+
+		modal-xl
+		modal-lg
+		modal-md(default)
+		modal-sm
+
+	(ii) Full Size 
+
+		modal-fullscreen
+		modal-fullscreen-sm-down
+		modal-fullscreen-md-down
+
+	-->
+
+
+	<!-- START MODAL AREA -->
+
+		<!-- Start Get In Touch Modal -->
+
+		<div class="modal" id="loginmodal">
+
+			<div class="modal-dialog modal-dialog-centered modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">Login Here</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" ></button>
+					</div>
+
+					<div class="modal-body">
+						<div class="col-12">
+							<form action="" method="">
+
+								<div class="form-group mb-4">
+									<label for="loginemail"></label>
+									<input type="email" name="loginemail" id="loginemail" class="form-control form-control-sm rounded-0" placeholder="Enter your email" />
+								</div>
+
+								<div class="form-group mb-4">
+									<label for="loginpassword"></label>
+									<input type="password" name="loginpassword" id="loginpassword" class="form-control form-control-sm rounded-0" placeholder="Enter your password" />
+								</div>
+
+								<div class="d-flex justify-content-end">
+									<button type="cancel" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">Cancel</button>
+									<button type="cancel" class="btn btn-primary btn-sm">Submit</button>
+								</div>
+
+
+							</form>
+						</div>
+					</div>
+
+					<div class="modal-footer">
+						<p>Not Register ! <a href="#">Signup here</a></p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<!-- End Get In Touch Modal -->
+
+	<!-- END MODAL AREA -->
+	
+
+
+
+	<!-- bootstrap css1 js1 -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+	<!-- jquery js1 -->
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js" type="text/javascript"></script>
+
+	
+
+
+	<!-- custom js -->
+	<script type="text/javascript">
+		
+		const autoyear = document.getElementById('autoyear');
+		const getyear = new Date().getUTCFullYear();
+		autoyear.textContent = getyear;
+	</script>
+</body>
+</html>
+
+
+<!-- 6PS -->
